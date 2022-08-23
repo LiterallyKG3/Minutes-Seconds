@@ -15,7 +15,7 @@ namespace Project
           bool game = true;
           int streak = 0;
 
-          Console.WriteLine("You will be given a random amount of seconds, convert it to Minutes:Seconds\nPress enter to proceed\n----------------------------------------------------------------------");
+          Console.WriteLine("You will be given a random amount of seconds, convert it to Minutes:Seconds\nPress Enter to proceed\n----------------------------------------------------------------------");
           Console.ReadKey();
 
           while (game == true) {
