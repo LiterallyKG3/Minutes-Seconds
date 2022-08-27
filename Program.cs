@@ -55,7 +55,7 @@ namespace Project
               Console.ForegroundColor = ConsoleColor.Gray;
               Console.WriteLine("\nPress Escape to close the game");
             }  
-            else {
+            if (retry != "N" && retry != "Y") {
               Console.WriteLine("\nError, \"" +  retry + "\" not recognized as a command");
               //"\" makes the program ignore the next character, this is called escaping
               //e.g. Console.WriteLine("\"These two quotation marks are not removed when i am printed\"");
