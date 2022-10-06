@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj": {}
+    "d:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj": {}
   },
   "projects": {
-    "D:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj": {
+    "d:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj",
+        "projectUniqueName": "d:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj",
         "projectName": "Minutes Seconds",
-        "projectPath": "D:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj",
+        "projectPath": "d:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\Minutes Seconds.csproj",
         "packagesPath": "C:\\Users\\Kasra\\.nuget\\packages\\",
-        "outputPath": "D:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\obj\\",
+        "outputPath": "d:\\Other\\Stuff\\Coding\\VSCode\\Minutes Seconds\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kasra\\AppData\\Roaming\\NuGet\\NuGet.Config"
