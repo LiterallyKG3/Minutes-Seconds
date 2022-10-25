@@ -12,13 +12,13 @@ namespace Project
           Random randomNumber = new Random();
           
           int sec;
-          bool isLost = false;
+          bool gameLost = false;
           int streak = 0;
 
           Console.WriteLine("You will be given a random amount of seconds, convert it to Minutes:Seconds\nPress Enter to proceed\n----------------------------------------------------------------------");
           Console.ReadKey();
 
-          while (isLost == false) {
+          while (gameLost == false) {
            Console.ForegroundColor = ConsoleColor.White; 
            sec = randomNumber.Next(100,1000);
            int min = (sec/60);
@@ -44,11 +44,11 @@ namespace Project
            else {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("\nYou Lose!\nStreak: " + streak + "\nRetry? (Y/N)");
-            isLost = true;
+            gameLost = true;
             string retry;
             retry = Console.ReadLine()!; //"!" removes the annoying problem markers
             if (retry == "Y") {
-              isLost = false;
+              gameLost = false;
               streak = 0;
             }
             if (retry == "N") {
