@@ -14,6 +14,7 @@ namespace Project
           int sec;
           bool gameLost = false;
           int streak = 0;
+          int highScore = 0;
 
           Console.WriteLine("You will be given a random amount of seconds, convert it to Minutes:Seconds\nPress Enter to proceed\n----------------------------------------------------------------------");
           Console.ReadKey();
@@ -43,10 +44,14 @@ namespace Project
            }
            else {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\nYou Lose!\nStreak: " + streak + "\nRetry? (Y/N)");
+            if (highScore < streak) {
+              highScore = streak;
+            }
+            Console.WriteLine("\nYou Lose!\nStreak: " + streak + "\nHighScore: " + highScore + "\n\nRetry? (Y/N)");
             gameLost = true;
             string retry;
             retry = Console.ReadLine()!; //"!" removes the annoying problem markers
+            
             if (retry == "Y") {
               gameLost = false;
               streak = 0;
